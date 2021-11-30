@@ -13,13 +13,16 @@ int main(){
 
     cout << "Please input GPA: ";
 	cin >> x;
+	
 	while (i < 10)
 	{
-		if(x <= gpa[i]){
+		if(x <= gpa[i])
+		{
 			cout << id[i] <<" " << name[i] <<" " << gpa[i] << "\n" ;
 			i++;
 		}
-		else{
+		else
+		{
 			i++;
 		}
 	}
